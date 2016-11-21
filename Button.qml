@@ -46,7 +46,7 @@ Item {
             fillMode: Image.PreserveAspectFit
             anchors.horizontalCenter: parent.horizontalCenter
             y: (parent.height - (height + titleText.height)) / 2
-            source: "http://musicmeta.phinf.naver.net/album/001/114/1114513.jpg"
+            source: "http://musicmeta.phinf.naver.net/album/001/365/1365399.jpg"
         }
         Image {
             height: parent.height / 5

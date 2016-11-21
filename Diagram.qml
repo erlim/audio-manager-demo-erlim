@@ -183,13 +183,13 @@ Item {
                     height: buttonPanel.buttonHeight
 
                     iconName: "music"
-                    title: "Twice (TT)"
+                    title: "BlackPink"
 
                     amCommandIF: amClient
                     amSource: "MediaPlayer"
                     amSink: "AlsaPrimary"
                     mediaRole: "MEDIA"
-                    audioFilePath: "audio/media.wav"
+                    audioFilePath: "audio/blackpink.wav"
                 }
             }
         }
