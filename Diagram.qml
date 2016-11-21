@@ -189,7 +189,7 @@ Item {
                     amSource: "MediaPlayer"
                     amSink: "AlsaPrimary"
                     mediaRole: "MEDIA"
-                    audioFilePath: "audio/twice_tt.mp3"
+                    audioFilePath: "audio/media.wav"
                 }
             }
         }
