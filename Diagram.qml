@@ -196,57 +196,6 @@ Item {
     }
 
     Rectangle {
-        id: amVolumeChartPanel
-        anchors.left: buttonPanel.right
-        anchors.top: parent.top
-        width: parent.width * 2 / 6
-        height: parent.height / 2
-
-        /*
-        Text {
-            text: "50"
-            font.pixelSize: parent.height / 20
-            anchors.right: audiomanagerChart.left
-            anchors.verticalCenter: parent.verticalCenter
-            anchors.rightMargin: 5
-        }
-        */
-        Graph {
-            id: audiomanagerChart
-            graphName : "AudiomanagerChart"
-            title: "Sinks of GENIVI® Audio Manager"
-            description: "AM's Sink volume changes by Control Plugin"
-            anchors.fill: parent
-            defaultValue : 0
-            maxDataLength: 100
-            width: parent.width
-            height: parent.height
-            type: Code.GraphType.CONTINUOUS_LINE
-        }
-    }
-
-    Rectangle {
-        id: pulseaudioVolumeChartPanel
-        anchors.left: buttonPanel.right
-        anchors.top: amVolumeChartPanel.bottom
-        width: parent.width * 2 / 6
-        height: parent.height / 2
-
-        Graph {
-            id: pulseaudioChart
-            title: "Sink Inputs of PulseAudio"
-            description: "PA's Sink Input volume changes"
-            anchors.fill: parent
-            graphName : "PulseAudioChart"
-            defaultValue : 0
-            maxDataLength: 100
-            width: parent.width
-            height: parent.height
-            type: Code.GraphType.TRANSIENT_LINE
-        }
-    }
-
-    Rectangle {
         id: dialogPanel
         anchors.left: amVolumeChartPanel.right
         anchors.top: parent.top

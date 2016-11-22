@@ -35,11 +35,11 @@ Rectangle {
         Image {
             height: parent.height*2/3
             fillMode: Image.PreserveAspectFit
-            source: "images/windriver-logo.png"
+            source: "images/navermusic.png"
             anchors.verticalCenter: parent.verticalCenter
         }
         Text {
-            text: "GENIVI® Audio Manager Monitor"
+            text: "Naver Music"
             anchors.right: parent.right
             font.pointSize: parent.height / 3
             anchors.verticalCenter: parent.verticalCenter
